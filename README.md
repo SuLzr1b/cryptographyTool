@@ -2,7 +2,7 @@
 
 An **educational** Python project designed to learn cryptography and cybersecurity. This tool encrypts and decrypts `.txt` files in a specified folder and its subfolders using the `cryptography` library.
 
-**WARNING**: This project is for educational purposes only. Do not use it on files without explicit authorization. Unauthorized use may violate laws, such as Brazil's General Data Protection Law (LGPD).
+**WARNING**: This project is for educational purposes only. Do not use it on files without explicit authorization. Unauthorized use may violate laws.
 
 ## Features
 - Encrypts all `.txt` files in a folder and its subfolders, overwriting them with encrypted content.
@@ -45,14 +45,14 @@ An **educational** Python project designed to learn cryptography and cybersecuri
 
 ## Example
 ```bash
-$ python criptografar.py
-*** MyCryptoTool - Educational Encryption ***
+$ python crypt.py
+*** cryptographyTool - Educational Encryption ***
 WARNING: Make a backup before encrypting!
 Enter the folder path (e.g., C:\Users\Users\Documents\MyFolder): C:\Users\Users\cryptographyTool\tests
 Key generated and saved as 'chave.key'.
 Encrypted: C:\Users\Users\cryptographyTool\tests\file1.txt
 Encrypted: C:\Users\Users\cryptographyTool\tests\file2.txt
-Encrypted: C:\Users\guilh\cryptographyTool\tests\subfolder\file3.txt
+Encrypted: C:\Users\Users\cryptographyTool\tests\subfolder\file3.txt
 Total .txt files encrypted: 3
 Keep 'chave.key' safe to decrypt!
 ```
