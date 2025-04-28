@@ -1,4 +1,4 @@
-# MyCryptoTool
+# cryptographyTool
 
 An **educational** Python project designed to learn cryptography and cybersecurity. This tool encrypts and decrypts `.txt` files in a specified folder and its subfolders using the `cryptography` library.
 
