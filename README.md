@@ -25,7 +25,7 @@ An **educational** Python project designed to learn cryptography and cybersecuri
    ```
 2. Run the encryption script:
    ```bash
-   python crypt.py
+   python crypto.py
    ```
    - Enter the full path of the folder containing `.txt` files (e.g., `C:\Users\Users\Documents\MyFolder`).
    - A `chave.key` file will be generated in the project directory.
@@ -37,7 +37,7 @@ An **educational** Python project designed to learn cryptography and cybersecuri
 4. **Backup**: Always back up your files before encrypting, as the original content is overwritten.
 
 ## Project Structure
-- `crypt.py`: Script to encrypt `.txt` files in the specified folder and subfolders.
+- `crypto.py`: Script to encrypt `.txt` files in the specified folder and subfolders.
 - `decrypt.py`: Script to decrypt `.txt` files using `chave.key`.
 - `tests/`: Folder containing sample `.txt` files for testing.
 - `LICENSE`: MIT License for the project.
@@ -45,7 +45,7 @@ An **educational** Python project designed to learn cryptography and cybersecuri
 
 ## Example
 ```bash
-$ python crypt.py
+$ python crypto.py
 *** cryptographyTool - Educational Encryption ***
 WARNING: Make a backup before encrypting!
 Enter the folder path (e.g., C:\Users\Users\Documents\MyFolder): C:\Users\Users\cryptographyTool\tests
